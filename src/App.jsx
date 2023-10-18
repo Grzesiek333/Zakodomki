@@ -7,6 +7,7 @@ import {
 
 import './calendar.jsx';
 import InlineDemo from './calendar.jsx';
+import CalendarComponent from './import_booking'
 
 function App() {
    return (
@@ -14,6 +15,7 @@ function App() {
       <h1>Zakodomki</h1>
       <div>abc</div>
       <InlineDemo />
+      <CalendarComponent />
     </>
   )
 }
