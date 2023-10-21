@@ -1,12 +1,13 @@
 import "./App.scss";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import InlineDemo from "./components/calendar";
 // import CalendarComponent from './import_booking'
-import SignUp from "./components/signup";
-import SignIn from "./components/signin";
-import Home from "./components/home";
-import Reservations from "./components/reservations";
+import SignUp from "./signup";
+import SignIn from "./signin";
+import Home from "./home";
+import Reservations from "./reservations";
 
 
 function App() {
