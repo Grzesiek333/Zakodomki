@@ -7,9 +7,9 @@ export default function HeroImage() {
     <div style={{ paddingLeft: 0 }}>
       <div
         className='p-5 text-center bg-image'
-        style={{height: 600 }}
+        style={{height: '100vh' }}
       >
-        <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)' }}>
+        <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)'}}>
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
               <h1 className='mb-3'>Zakodomki</h1>
