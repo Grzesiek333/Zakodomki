@@ -1,12 +1,17 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function GridCards() {
   return (
+    <>
+    <h1>Wybierz domek dla siebie:</h1>
     <Row xs={1} md={2} className="g-4" style={{width: "90%",}}>
       {Array.from({ length: 1 }).map((_, idx) => (
         <Col key={idx}>
+        <Link to="/szalas" >
           <Card>
             <Card.Img variant="top" src="media/szalas/main_foto.jpg" />
             <Card.Body>
@@ -18,6 +23,7 @@ function GridCards() {
               </Card.Text>
             </Card.Body>
           </Card>
+          </Link>  
         </Col>
       ))}
       {Array.from({ length: 1 }).map((_, idx) => (
@@ -66,6 +72,7 @@ function GridCards() {
         </Col>
       ))}
     </Row>
+    </>
   );
 }
 

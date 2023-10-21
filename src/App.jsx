@@ -8,6 +8,7 @@ import SignUp from "./signup";
 import SignIn from "./signin";
 import Home from "./home";
 import Reservations from "./reservations";
+import Szalas from "./szalas";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/reservations" element={<Reservations />} />
+        <Route path="/szalas" element={<Szalas />} />
       </Routes>
     </Router>
   );

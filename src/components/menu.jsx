@@ -8,6 +8,7 @@ export default function Menu() {
         {
             label: 'Strona główna',
             icon: 'pi pi-fw pi-file',
+            url: '/'
 
         },
         {
@@ -16,7 +17,8 @@ export default function Menu() {
             items: [
                 {
                     label: 'Domek Szałas',
-                    icon: 'pi pi-fw pi-align-left'
+                    icon: 'pi pi-fw pi-align-left',
+                    url: '/szalas'
                 },
                 {
                     label: 'Apartament 8-osobowy',
