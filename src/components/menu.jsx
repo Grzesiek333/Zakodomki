@@ -1,6 +1,6 @@
 import React from 'react'; 
 import { Menubar } from 'primereact/menubar';
-import "primereact/resources/themes/lara-light-indigo/theme.css";
+
 
 export default function Menu() {
     const items = [
@@ -19,11 +19,11 @@ export default function Menu() {
                     url: '/szalas'
                 },
                 {
-                    label: 'Apartament 8-osobowy',
+                    label: 'Apartament Pyzdra',
                     
                 },
                 {
-                    label: 'Apartament 4-osobowy',
+                    label: 'Apartament Tatrala',
                     
                 },             
             ]
@@ -49,8 +49,9 @@ export default function Menu() {
     ];
 
     return (
+            
+            <Menubar model={items} style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)', border: 'none',justifyContent: 'center'}}/>
         
-            <Menubar model={items} style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)'}}/>
         
     )
 }

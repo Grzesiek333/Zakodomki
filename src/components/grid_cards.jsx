@@ -8,7 +8,7 @@ function GridCards() {
   return (
     <>
     <h1>Wybierz domek dla siebie:</h1>
-    <Row xs={1} md={2} className="g-4" style={{width: "90%",}}>
+    <Row xs={1} md={3} className="g-4" style={{width: "90%",}}>
       {Array.from({ length: 1 }).map((_, idx) => (
         <Col key={idx}>
         <Link to="/szalas" >

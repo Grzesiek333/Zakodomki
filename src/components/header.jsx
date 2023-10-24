@@ -5,7 +5,7 @@ import HeroImage from "./hero";
 export function Header_Home() {
 
   return (
-    <>         
+    <>           
       <header className='bg-image'style={{ backgroundImage: "url('media/background/1.jpg')",  width: "100%", height:'100vh'}}>
           <Menu />
           <HeroImage />
