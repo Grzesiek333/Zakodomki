@@ -14,12 +14,10 @@ export default function HeroImage() {
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
               <h1 className='mb-3'>Zakodomki</h1>
-              <h4 className='mb-3'>Regionalne domki w Kościelisku</h4>
-              <a href="#sekcja-gridcards">              
-              <a className='btn btn-outline-light btn-lg' role='button'>
+              <h4 className='mb-3'>Regionalne domki w Kościelisku</h4>                          
+              <a className='btn btn-outline-light btn-lg' role='button'href="#sekcja-gridcards">
                 Zapraszamy
-              </a>
-              </a>
+              </a>              
             </div>
           </div>
         </div>
