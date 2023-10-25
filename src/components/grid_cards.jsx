@@ -5,73 +5,50 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function GridCards() {
+  const items_cards = [
+    {
+      LinkTo: '/szalas',
+      scr: 'media/szalas/main_foto.jpg',
+      title: 'Domek Szałas',
+      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit     longer.',
+      price: 'od 700 PLN/dobę'
+    },
+    {
+      LinkTo: '/tatrala',
+      scr: 'media/ap-4-osobowy/main_foto.jpg',
+      title: 'Apartament Tatrala',
+      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit     longer.',
+      price: 'od 350 PLN/dobę'
+    },
+    {
+      LinkTo: '/pyzdra',
+      scr: 'media/ap-8-osobowy/main_foto.jpg',
+      title: 'Apartament Pyzdra',
+      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit     longer.',
+      price: 'od 700 PLN/dobę'
+    },   
+  ]
   return (
     <>
-    <h1>Wybierz domek dla siebie:</h1>
-    <Row xs={1} md={3} className="g-4" style={{width: "90%",}}>
-      {Array.from({ length: 1 }).map((_, idx) => (
-        <Col key={idx}>
-        <Link to="/szalas" >
-          <Card>
-            <Card.Img variant="top" src="media/szalas/main_foto.jpg" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          </Link>  
-        </Col>
-      ))}
-      {Array.from({ length: 1 }).map((_, idx) => (
-        <Col key={idx}>
-          <Card>
-            <Card.Img variant="top" src="media/ap-8-osobowy/main_foto.jpg" />
-            <Card.Body>
-              <Card.Title>Szałas</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-      {Array.from({ length: 1 }).map((_, idx) => (
-        <Col key={idx}>
-          <Card>
-            <Card.Img variant="top" src="media/ap-4-osobowy/main_foto.jpg" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-      {Array.from({ length: 1 }).map((_, idx) => (
-        <Col key={idx}>
-          <Card>
-            <Card.Img variant="top" src="media/ap-4-osobowy/main_foto.jpg" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
+    <section id="sekcja-gridcards">
+      <h1>Wybierz domek dla siebie:</h1>
+      <Row xs={1} md={3} className="g-4" style={{ maxWidth: '1240px' }}>
+        {items_cards.map((item, idx) => (
+          <Col key={idx} >
+            <Link to={item.LinkTo}>
+              <Card>
+                <Card.Img variant="top" src={item.scr} />
+                <Card.Body>
+                  <Card.Title>{item.title}</Card.Title>
+                  <Card.Text>{item.text}</Card.Text>
+                  <p>Cena: {item.price}</p>
+                </Card.Body>
+              </Card>
+            </Link>
+          </Col>
+      ))}     
     </Row>
+    </section>
     </>
   );
 }

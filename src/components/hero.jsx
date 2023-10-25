@@ -1,6 +1,7 @@
 import React from 'react';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Link } from 'react-router-dom';
 
 export default function HeroImage() {
   return (
@@ -14,8 +15,10 @@ export default function HeroImage() {
             <div className='text-white'>
               <h1 className='mb-3'>Zakodomki</h1>
               <h4 className='mb-3'>Regionalne domki w Kościelisku</h4>
-              <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
+              <a href="#sekcja-gridcards">              
+              <a className='btn btn-outline-light btn-lg' role='button'>
                 Zapraszamy
+              </a>
               </a>
             </div>
           </div>
