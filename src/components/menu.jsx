@@ -30,8 +30,7 @@ export default function Menu() {
             ]
         },
         {
-            label: 'Cennik',
-           
+            label: 'Cennik',        
            
         },
         {
@@ -39,23 +38,22 @@ export default function Menu() {
             
             
         },
-        {
-            label: 'Regulamin',
-            
-        },
+
         {
             label: 'Kontakt',
             url: '/contact'
         }
     ];
     const [menuColor, setMenuColor] = useState("rgba(0, 0, 0, 0.1)"); // Domyślny kolor
-
+    const [menuBorder, setMenuBorder] = useState("none");
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
         setMenuColor("white"); // Kolor po przewinięciu
+        setMenuBorder("1px solid #b0b0b0")
       } else {
         setMenuColor("rgba(0, 0, 0, 0.1)"); // Kolor na górze
+        setMenuBorder("none")
       };
     };
 
@@ -80,7 +78,7 @@ export default function Menu() {
       <Menubar
         model={items}
         style={{
-          border: "none",
+          borderBottom: menuBorder,
           justifyContent: "center",
           backgroundColor: menuColor,
         }}
