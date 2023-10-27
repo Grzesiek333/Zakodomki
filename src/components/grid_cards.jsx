@@ -31,7 +31,7 @@ function GridCards() {
   return (
     <>
     <section id="sekcja-gridcards">
-      <h1>Wybierz domek dla siebie:</h1>
+      <h2>Wybierz domek dla siebie:</h2>
       <Row xs={1} md={3} className="g-4" style={{ maxWidth: '1240px' }}>
         {items_cards.map((item, idx) => (
           <Col key={idx} >
