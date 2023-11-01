@@ -3,6 +3,7 @@ import React from "react";
 import InlineDemo from "./components/calendar";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Gallery from "./components/gallery";
 
 export default function Szalas() {
   return (
@@ -15,6 +16,7 @@ export default function Szalas() {
       Dodatkowo jest miejsce na ognisko i duży (nieogrodzony) ogród do dyspozycji gości.
       Bezpłatne dwa miejsca postojowe. Plac zabaw dla dzieci.</div>
     </section>
+    <Gallery />
       <InlineDemo />      
       <Footer />
     </>
