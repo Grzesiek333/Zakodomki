@@ -3,9 +3,10 @@ import Button from 'react-bootstrap/Button';
 import { useEffect, useState } from 'react';
 import supabase from '../services/supabase';
 
-function Form_input() {
+function FormInput() {
   const [message, setMessage] = useState([]);
   const [email, setEmail] = useState([]);
+  const [submitted, setSubmitted] = useState(false);
 
   async function onSaveMessage(e) {
     e.preventDefault();
@@ -23,6 +24,7 @@ function Form_input() {
 
       setMessage(prev => [...prev, data[0]]);
       setEmail(prev => [...prev, data[0]]);
+      setSubmitted(true); // Ustaw potwierdzenie wysłania wiadomości
 
       return;
     }
@@ -31,20 +33,28 @@ function Form_input() {
   }
 
   return (
-    <Form onSubmit={onSaveMessage}>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="name@example.com" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Example textarea</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    </Form>
+    <div>
+      {submitted ? (
+        <div>
+          <p>Wiadomość została wysłana!</p>
+        </div>
+      ) : (
+        <Form onSubmit={onSaveMessage}>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Label>Email address</Form.Label>
+            <Form.Control type="email" placeholder="name@example.com" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+            <Form.Label>Example textarea</Form.Label>
+            <Form.Control as="textarea" rows={3} />
+          </Form.Group>
+          <Button variant="primary" type="submit">
+            Submit
+          </Button>
+        </Form>
+      )}
+    </div>
   );
 }
 
-export default Form_input;
+export default FormInput;
