@@ -21,12 +21,9 @@ function RangeCalendar() {
         const endDate = dates[i + 1];
 
         if (startDate && endDate) {
-          const formattedStartDate = formatToYYYYMMDD(startDate);
-          const formattedEndDate = formatToYYYYMMDD(endDate);
-
           reservationsToInsert.push({
-            start_date: formattedStartDate,
-            end_date: formattedEndDate,
+            start_date: startDate,
+            end_date: endDate, 
           });
         }
       }
@@ -44,14 +41,6 @@ function RangeCalendar() {
         console.error("Wystąpił błąd podczas zapisywania danych:", error);
       }
     }
-  }
-
-  // Funkcja do przekształcania daty na format "dd/mm/yyyy"
-  function formatToYYYYMMDD(date) {
-    const day = date.getDate();
-    const month = date.getMonth() + 1;
-    const year = date.getFullYear();
-    return `${year},${month},${day}`;
   }
 
   return (
@@ -72,11 +61,11 @@ function RangeCalendar() {
 export default function Reservations() {
   const navigation = useNavigate();
 
-  const [notes, setNotes] = useState(null);
+  const [Date_reservation, setDate_reservation] = useState(null);
 
   useEffect(() => {
     getSession();
-    getNotes();
+    getDate_reservation();
   }, []);
 
   async function getSession() {
@@ -89,11 +78,11 @@ export default function Reservations() {
     }
   }
 
-  async function getNotes() {
+  async function getDate_reservation() {
     let { data, error } = await supabase.from("reservations").select("*");
 
     if (!error) {
-      setNotes(data);
+      setDate_reservation(data);
       return;
     }
 
@@ -106,41 +95,15 @@ export default function Reservations() {
     navigation("/");
   }
 
-  async function onSaveNote(e) {
-    e.preventDefault();
 
-    const formElements = e.currentTarget.elements;
-
-    const { data, error } = await supabase
-      .from("reservations")
-      .insert([{ note: formElements[0].value }])
-      .select();
-
-    if (!error) {
-      console.log("note added successfully");
-      console.log(data);
-
-      setNotes((prev) => [...prev, data[0]]);
-
-      return;
-    }
-
-    console.error("something went wrong", error);
-  }
 
   return (
     <>
       <h1>Rezerwacje</h1>
       <button onClick={onLogout}>Logout</button>
-
       <hr />
-
-      <form onSubmit={onSaveNote}>
-        <textarea placeholder="type your note here..." />
-        <button>Save</button>
-      </form>
       <RangeCalendar />
-      {notes && notes.map((note) => <li key={note.id}>{note.note}</li>)}
+
     </>
   );
 }
