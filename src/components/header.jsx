@@ -7,7 +7,7 @@ export function Header_Home() {
 
   return (
     <>           
-      <header className='bg-image'style={{ backgroundImage: "url('src/media/background/1.jpg')",  width: "100%", height:'100vh'}}>
+      <header className='bg-image'style={{ backgroundImage: "url('src/assets/media/background/1.jpg')",  width: "100%", height:'100vh'}}>
           <Menu />
           <HeroImage />          
       </header>        
@@ -19,7 +19,7 @@ export default function  Header() {
 
     return (
       <>         
-        <header className='bg-image'style={{ backgroundImage: "src/media/background/1.jpg')", backgroundPosition: 'center top', width: "100%", height:'40vh'}}>
+        <header className='bg-image'style={{ backgroundImage: "src/assets/media/background/1.jpg')", backgroundPosition: 'center top', width: "100%", height:'40vh'}}>
             <Menu />
             <HeroImage />
         </header>        
