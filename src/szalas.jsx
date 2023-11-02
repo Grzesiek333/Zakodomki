@@ -1,6 +1,6 @@
 import React from "react";
 
-import InlineDemo from "./components/calendar";
+// import InlineDemo from "./components/calendar";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Gallery from "./components/gallery";
@@ -17,7 +17,7 @@ export default function Szalas() {
       Bezpłatne dwa miejsca postojowe. Plac zabaw dla dzieci.</div>
     </section>
     <Gallery />
-      <InlineDemo />      
+      {/* <InlineDemo />       */}
       <Footer />
     </>
   );

@@ -4,7 +4,11 @@ import Row from 'react-bootstrap/Row';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function GridCards() {
+  function scrollToTop() {
+    window.scrollTo(0, 250);
+  }
   const items_cards = [
     {
       LinkTo: '/szalas',
@@ -35,7 +39,7 @@ function GridCards() {
       <Row xs={1} md={3} className="g-4" style={{ maxWidth: '1240px' }}>
         {items_cards.map((item, idx) => (
           <Col key={idx} >
-            <Link to={item.LinkTo}>
+            <Link to={item.LinkTo} onClick={scrollToTop}>
               <Card>
                 <Card.Img variant="top" src={item.scr} />
                 <Card.Body>

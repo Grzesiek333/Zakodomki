@@ -1,5 +1,5 @@
 import "./App.scss";
-
+import "primereact/resources/themes/lara-light-indigo/theme.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // import CalendarComponent from './import_booking'
