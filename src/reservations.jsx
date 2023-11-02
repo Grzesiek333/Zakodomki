@@ -14,26 +14,29 @@ function RangeCalendar() {
   async function handleSave() {
     if (dates && dates.length % 2 === 0) {
       const reservationsToInsert = [];
-
-      // Przekształć wybrane daty na pary "start_date" i "end_date"
+  
+      // Przekształć wybrane daty na pary "start_date" i "end_date" z korektą o jeden dzień
       for (let i = 0; i < dates.length; i += 2) {
-        const startDate = dates[i];
-        const endDate = dates[i + 1];
-
+        const startDate = new Date(dates[i]);
+        startDate.setDate(startDate.getDate() + 1); // Dodaj jeden dzień
+  
+        const endDate = new Date(dates[i + 1]);
+        endDate.setDate(endDate.getDate() + 1); // Dodaj jeden dzień
+  
         if (startDate && endDate) {
           reservationsToInsert.push({
             start_date: startDate,
-            end_date: endDate, 
+            end_date: endDate,
           });
         }
       }
-
+  
       // Wyślij sformatowane pary "start_date" i "end_date" do API
       const { data, error } = await supabase
         .from("reservations")
         .insert(reservationsToInsert)
         .select();
-
+  
       if (!error) {
         console.log("Zapisane rezerwacje:", reservationsToInsert);
         // Możesz dodać odpowiednią obsługę po zapisaniu danych do API
@@ -42,6 +45,7 @@ function RangeCalendar() {
       }
     }
   }
+  
 
   return (
     <div className="card flex justify-content-center">
@@ -64,20 +68,9 @@ export default function Reservations() {
   const [Date_reservation, setDate_reservation] = useState(null);
 
   useEffect(() => {
-    getSession();
+    
     getDate_reservation();
   }, []);
-
-  async function getSession() {
-    const { data, error } = await supabase.auth.getSession();
-
-    console.log(data, error);
-
-    if (!data.session) {
-      navigation("/");
-    }
-  }
-
   async function getDate_reservation() {
     let { data, error } = await supabase.from("reservations").select("*");
 
@@ -88,22 +81,14 @@ export default function Reservations() {
 
     console.error("something went wrong", error);
   }
-
-  async function onLogout() {
-    let { error } = await supabase.auth.signOut();
-
-    navigation("/");
-  }
-
-
-
   return (
     <>
       <h1>Rezerwacje</h1>
-      <button onClick={onLogout}>Logout</button>
+
       <hr />
       <RangeCalendar />
 
     </>
   );
 }
+

@@ -3,9 +3,17 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import React, { useState } from 'react';
 
 function GridCards() {
+  const [hoveredCard, setHoveredCard] = useState(null);
+  const handleCardMouseEnter = (index) => {
+    setHoveredCard(index);
+  };
+
+  const handleCardMouseLeave = () => {
+    setHoveredCard(null);
+  };
   function scrollToTop() {
     window.scrollTo(0, 250);
   }
@@ -40,9 +48,16 @@ function GridCards() {
         {items_cards.map((item, idx) => (
           <Col key={idx} >
             <Link to={item.LinkTo} onClick={scrollToTop}>
-              <Card>
+              <Card onMouseEnter={() => handleCardMouseEnter(idx)}
+                  onMouseLeave={handleCardMouseLeave}
+                  style={{
+                    boxShadow: hoveredCard === idx
+                      ? '0 12px 24px 0 rgba(0, 0, 0, 0.2)'
+                      : '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
+                    transition: '0.3s',
+                  }}>
                 <Card.Img variant="top" src={item.scr} />
-                <Card.Body>
+                <Card.Body >
                   <Card.Title>{item.title}</Card.Title>
                   <Card.Text>{item.text}</Card.Text>
                   <p>Cena: {item.price}</p>
