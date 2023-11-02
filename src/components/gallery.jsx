@@ -1,41 +1,45 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Galleria } from 'primereact/galleria';
 import { PhotoService } from '../services/photo_szalas';
 
+
 export default function Gallery()  {
     const [images, setImages] = useState(null);
-    const responsiveOptions = [
-        {
-            breakpoint: '991px',
-            numVisible: 4
-        },
-        {
-            breakpoint: '767px',
-            numVisible: 3
-        },
-        {
-            breakpoint: '575px',
-            numVisible: 1
-        }
-    ];
+    const [activeIndex, setActiveIndex] = useState(0);    
+    const galleria = useRef(null);
 
     useEffect(() => {
         PhotoService.getImages().then(data => setImages(data));
-    }, [])
+    }, []);
 
     const itemTemplate = (item) => {
-        return <img src={item.itemImageSrc} alt={item.alt} style={{ width: '100%' }} />
+        return <img src={item.itemImageSrc} alt={item.alt} style={{ width: '100%', display: 'block' }} />;
     }
 
     const thumbnailTemplate = (item) => {
-        return <img src={item.thumbnailImageSrc} alt={item.alt} />
+        return <img src={item.thumbnailImageSrc} alt={item.alt} style={{ display: 'block' }} />;
     }
 
     return (
-        <div className="card">
-            <Galleria value={images} responsiveOptions={responsiveOptions} numVisible={5} style={{ maxWidth: '640px' }} 
-                item={itemTemplate} thumbnail={thumbnailTemplate} />
+        <div className="card flex justify-content-center">
+            <Galleria ref={galleria} value={images} numVisible={7} style={{ maxWidth: '1200px' }}
+            activeIndex={activeIndex} onItemChange={(e) => setActiveIndex(e.index)}
+            circular fullScreen showItemNavigators showThumbnails={false} item={itemTemplate} thumbnail={thumbnailTemplate} />
+            <div className="grid" style={{ maxWidth: '1228px' }}>
+                {
+                    images && images.map((image, index) => {
+                        let imgEl = <img src={image.thumbnailImageSrc} alt={image.alt} style={{ cursor: 'pointer' }} onClick={
+                            () => {setActiveIndex(index); galleria.current.show()}
+                        } />
+                        return (
+                            <div className="col-3" key={index}>
+                                {imgEl}
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }

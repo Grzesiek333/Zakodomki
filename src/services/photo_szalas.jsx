@@ -21,19 +21,19 @@ export const PhotoService = {
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria4.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria4s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria4.jpg',
               alt: 'Description for Image 4',
               title: 'Title 4'
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria5.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria5s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria5.jpg',
               alt: 'Description for Image 5',
               title: 'Title 5'
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria6.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria6s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria6.jpg',
               alt: 'Description for Image 6',
               title: 'Title 6'
           },

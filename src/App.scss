@@ -20,4 +20,24 @@ body {
     margin: 40px; 
   }
 }
+// stylowanie Gallery
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  padding: 0;
+}
 
+.col-3 {
+  flex: 1;  
+  margin: 5px;
+  padding: 5px;
+}
+.col-3 img {
+  width: 15em; /* Dostosuj szerokość do preferencji */
+  height: 10em; /* Dostosuj wysokość do preferencji */ 
+}
+.justify-content-center {
+  margin-top: 35px;
+}
