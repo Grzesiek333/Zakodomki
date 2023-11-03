@@ -52,7 +52,9 @@ function FormInput() {
   }
 
   return (
-    <div>
+    <>
+    <div style={{backgroundImage: "url('/media/background/2.jpeg')", width: "100%", height:'100vh', maxWidth: '1024px', maxHeight: '576px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)', display: 'flex', justifyContent: 'right', alignItems: 'center'}}>
+    <div style={{ width: '400px', backgroundColor: 'white', marginRight: '8%', paddingBlock: '30px', paddingInline: '50px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',}}>
       {submitted ? (
         <div>
           <p>Wiadomość została wysłana!</p>
@@ -60,6 +62,7 @@ function FormInput() {
       ) : (
         <Form onSubmit={onSaveMessage}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInputName">
+            <h5>Masz pytanie? Napisz do nas</h5>
             <Form.Label>Imię i nazwisko:</Form.Label>
             <Form.Control
               type="text"
@@ -79,7 +82,7 @@ function FormInput() {
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
             <Form.Label>Treść wiadomości:</Form.Label>
-            <Form.Control as="textarea" rows={5} style={{ width: '400px' }} />
+            <Form.Control as="textarea" rows={5}  />
           </Form.Group>
           <Button variant="primary" type="submit">
             Wyślij
@@ -87,6 +90,8 @@ function FormInput() {
         </Form>
       )}
     </div>
+    </div>
+    </>
   );
 }
 

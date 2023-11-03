@@ -9,6 +9,7 @@ import Home from "./home";
 import Reservations from "./reservations";
 import Szalas from "./szalas";
 import Contact from "./contact";
+import AboutUs from "./aboutus";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/reservations" element={<Reservations />} />
         <Route path="/szalas" element={<Szalas />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/onas" element={<AboutUs />} />
       </Routes>
     </Router>
   );

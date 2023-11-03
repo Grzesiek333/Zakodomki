@@ -29,8 +29,7 @@ export default function Footer() {
                 Zakodomki
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+              Zespół domków i apartamentów łączących wygodę, nowoczesność i tradycje góralską.
               </p>
             </MDBCol>
 

@@ -34,8 +34,8 @@ export default function Menu() {
            
         },
         {
-            label: 'Atrakcje',
-            
+            label: 'O nas',
+            url: '/onas'
             
         },
 
