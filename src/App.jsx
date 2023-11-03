@@ -8,6 +8,8 @@ import SignIn from "./signin";
 import Home from "./home";
 import Reservations from "./reservations";
 import Szalas from "./szalas";
+import Pyzdra from "./pyzdra";
+import Tatrala from "./tatrala";
 import Contact from "./contact";
 import AboutUs from "./aboutus";
 
@@ -21,6 +23,8 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/reservations" element={<Reservations />} />
         <Route path="/szalas" element={<Szalas />} />
+        <Route path="/pyzdra" element={<Pyzdra />} />
+        <Route path="/tatrala" element={<Tatrala />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/onas" element={<AboutUs />} />
       </Routes>

@@ -50,10 +50,20 @@ export default function Footer() {
                   Apartament Tatrala
                 </a>
               </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  O nas
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Cennik
+                </a>
+              </p>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Przydatne linki:</h6>
               <p>
                 <a href='#!' className='text-reset'>
                   Regulamin

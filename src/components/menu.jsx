@@ -21,11 +21,11 @@ export default function Menu() {
                 },
                 {
                     label: 'Apartament Pyzdra',
-                    
+                    url: '/pyzdra'
                 },
                 {
                     label: 'Apartament Tatrala',
-                    
+                    url: '/tatrala'
                 },             
             ]
         },
