@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import { useEffect, useState } from 'react';
 import supabase from '../services/supabase';
 
-function FormInput() {
+function FormInput(props) {
   const [message, setMessage] = useState([]);
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
@@ -52,8 +52,9 @@ function FormInput() {
   }
 
   return (
-    <>
-    <div style={{backgroundImage: "url('/media/background/2.jpeg')", width: "100%", height:'100vh', maxWidth: '1024px', maxHeight: '576px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)', display: 'flex', justifyContent: 'right', alignItems: 'center'}}>
+    <>    
+    <div style={{backgroundImage: "url('/media/background/2.jpeg')", width: "100%", height:'100vh', maxWidth: '1024px', maxHeight: '576px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)', display: 'flex', justifyContent: 'right', alignItems: 'center'}}> 
+    {props.children}   
     <div style={{ width: '400px', backgroundColor: 'white', marginInline: '8%', paddingBlock: '30px', paddingInline: '50px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',}}>
       {submitted ? (
         <div>
