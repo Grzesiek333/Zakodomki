@@ -12,7 +12,7 @@ import Pyzdra from "./pyzdra";
 import Tatrala from "./tatrala";
 import Contact from "./contact";
 import AboutUs from "./aboutus";
-
+import Price from "./price";
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
         <Route path="/tatrala" element={<Tatrala />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/onas" element={<AboutUs />} />
+        <Route path="/cennik" element={<Price />} />
       </Routes>
     </Router>
   );

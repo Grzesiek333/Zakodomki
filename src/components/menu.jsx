@@ -31,7 +31,7 @@ export default function Menu() {
         },
         {
             label: 'Cennik',        
-           
+            url: '/cennik'
         },
         {
             label: 'O nas',
