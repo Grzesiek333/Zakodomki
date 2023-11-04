@@ -9,7 +9,7 @@ export default function Contact() {
     <>
       <Header />
       <h2>Kontakt</h2>
-      <Form_input><div style={{width: '300px', backgroundColor: 'white', marginInline: '3%', paddingBlock: '30px', paddingInline: '50px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)'}}>              
+      <Form_input><div style={{width: '300px', backgroundColor: 'white', marginRight: '8%', paddingBlock: '30px', paddingInline: '50px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)'}}>              
       <p>
         <MDBIcon icon="envelope" className="me-3" />
         <a href="mailto:kontakt@zakodomki.pl">kontakt@zakodomki.pl</a>
