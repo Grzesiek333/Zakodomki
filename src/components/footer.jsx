@@ -36,27 +36,27 @@ export default function Footer() {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Menu</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/szalas' className='text-reset'>
                   Domek Szałas
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='pyzdra' className='text-reset'>
                   Apartament Pyzdra
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='tatrala' className='text-reset'>
                   Apartament Tatrala
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='onas' className='text-reset'>
                   O nas
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='cennik' className='text-reset'>
                   Cennik
                 </a>
               </p>
@@ -70,7 +70,7 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='mapa' className='text-reset'>
                   Mapa
                 </a>
               </p>

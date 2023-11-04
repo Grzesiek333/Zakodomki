@@ -13,6 +13,7 @@ import Tatrala from "./tatrala";
 import Contact from "./contact";
 import AboutUs from "./aboutus";
 import Price from "./price";
+import Map from "./map";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/onas" element={<AboutUs />} />
         <Route path="/cennik" element={<Price />} />
+        <Route path="/mapa" element={<Map />} />
       </Routes>
     </Router>
   );
