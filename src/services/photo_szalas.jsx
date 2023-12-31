@@ -3,19 +3,19 @@ export const PhotoService = {
       return [
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria1.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria1s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria1.jpg',
               alt: 'Description for Image 1',
               title: 'Title 1'
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria2.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria2s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria2.jpg',
               alt: 'Description for Image 2',
               title: 'Title 2'
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria3.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria3s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria3.jpg',
               alt: 'Description for Image 3',
               title: 'Title 3'
           },
@@ -39,43 +39,43 @@ export const PhotoService = {
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria7.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria7s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria7.jpg',
               alt: 'Description for Image 7',
               title: 'Title 7'
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria8.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria8s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria8.jpg',
               alt: 'Description for Image 8',
               title: 'Title 8'
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria9.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria9s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria9.jpg',
               alt: 'Description for Image 9',
               title: 'Title 9'
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria10.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria10s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria10.jpg',
               alt: 'Description for Image 10',
               title: 'Title 10'
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria11.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria11s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria11.jpg',
               alt: 'Description for Image 11',
               title: 'Title 11'
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria12.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria12s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria12.jpg',
               alt: 'Description for Image 12',
               title: 'Title 12'
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria13.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria13s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria13.jpg',
               alt: 'Description for Image 13',
               title: 'Title 13'
           },
