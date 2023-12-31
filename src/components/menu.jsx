@@ -81,6 +81,7 @@ export default function Menu() {
           borderBottom: menuBorder,
           justifyContent: "center",
           backgroundColor: menuColor,
+          color: 'black'
         }}
       />
     </div>
