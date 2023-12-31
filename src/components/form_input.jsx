@@ -99,7 +99,7 @@ function FormInput(props) {
       </p>
       <p>
         <MDBIcon icon="phone" className="me-3" />
-        <a href="tel:+48606111000">+48 606 111 000</a>
+        <a href="tel:+48606111000">+48 606 104 359</a>
       </p>
       <p>
         <MDBIcon icon="phone" className="me-3" />

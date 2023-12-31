@@ -33,14 +33,14 @@ export default function GridIcon() {
         <div className="order-3 p-2" style={iconStyle}>
           <FontAwesomeIcon icon={faDog} size="2xl" style={{color: "#b0b0b0", width: '100px', height: '100px'}} />
           <h4 style={{marginTop: '10px'}}>Zwierzęta mile widziane</h4>
-          <p style={{marginTop: '10px'}}>Pobyt ze zwierzętami za nie wielką dopłatą do sprzątania</p>
+          <p style={{marginTop: '10px'}}>Zapraszamy gości ze swoimi zwierzakami, może zaprzyjaźnią sie z naszymi pupilami </p>
           </div>
         </MDBCol>    
         <MDBCol md='4'style={{marginBottom: '20px'}}>
         <div className="order-3 p-2" style={iconStyle}>
           <FontAwesomeIcon icon={faChildren} size="2xl" style={{color: "#b0b0b0", width: '100px', height: '100px'}} />
           <h4 style={{marginTop: '10px'}}>Plac zabaw dla dzieci</h4>
-          <p style={{marginTop: '10px'}}>Do każdego z domków przypisane są dwa miejsca postojowe</p>
+          <p style={{marginTop: '10px'}}>W naszym ogrodzie znajduje się plac zabaw dla dzieci.</p>
           </div>
         </MDBCol>
         <MDBCol md='4'style={{marginBottom: '20px'}}>

@@ -8,7 +8,7 @@ export default function Map() {
     <>
       <Header />
         <h2>Mapa:</h2>
-
+        trwają prace
    
       <Footer />
     </>
