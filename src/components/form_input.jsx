@@ -2,6 +2,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useEffect, useState } from 'react';
 import supabase from '../services/supabase';
+import { MDBIcon } from 'mdb-react-ui-kit';
 
 function FormInput(props) {
   const [message, setMessage] = useState([]);
@@ -53,9 +54,9 @@ function FormInput(props) {
 
   return (
     <>    
-    <div style={{backgroundImage: "url('/media/background/2.jpeg')", backgroundSize: 'cover', width: "100%", height:'100vh', maxWidth: '1024px',  borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)', display: 'flex', flexWrap: 'wrap', justifyContent: 'right', alignItems: 'center'}}> 
+    <div style={{backgroundImage: "url('/media/background/contact.jpg')", backgroundSize: 'cover', width: "100%", height:'110vh', maxWidth: '1240px',  borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '10%'}}> 
     {props.children}   
-    <div style={{ width: '400px', backgroundColor: 'white', marginInline: '8%', paddingBlock: '30px', paddingInline: '50px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',}}>
+    <div style={{ width: '400px', backgroundColor: 'white', paddingBlock: '30px', paddingInline: '50px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',}}>
       {submitted ? (
         <div>
           <p>Wiadomość została wysłana!</p>
@@ -91,6 +92,30 @@ function FormInput(props) {
         </Form>
       )}
     </div>
+    <div style={{width: '400px', backgroundColor: 'white', paddingBlock: '30px', paddingInline: '50px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)'}}>              
+      <p>
+        <MDBIcon icon="envelope" className="me-3" />
+        <a href="mailto:kontakt@zakodomki.pl">kontakt@zakodomki.pl</a>
+      </p>
+      <p>
+        <MDBIcon icon="phone" className="me-3" />
+        <a href="tel:+48606111000">+48 606 111 000</a>
+      </p>
+      <p>
+        <MDBIcon icon="phone" className="me-3" />
+        <a href="tel:+0123456789">+48 720 769 324</a>
+      </p>
+      <p>
+        <MDBIcon icon="home" className="me-2" />
+        Kościelisko ul. Nedzędzy-Kubińca 110
+      </p>
+      <p style={{marginBottom: '0px'}}>
+        <MDBIcon icon="coins" className="me-2"  />
+        Nr konta: 
+        <br/>        
+        38 1050 1474 1000 0097 4752 7175
+      </p>
+      </div>
     </div>
     </>
   );
