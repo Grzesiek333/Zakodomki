@@ -33,7 +33,7 @@ export default function Gallery()  {
                             () => {setActiveIndex(index); galleria.current.show()}
                         } />
                         return (
-                            <div className="col-3" key={index}>
+                            <div className="box_img" key={index}>
                                 {imgEl}
                             </div>
                         )

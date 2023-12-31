@@ -81,13 +81,13 @@ export const PhotoService = {
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria14.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria14s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria14.jpg',
               alt: 'Description for Image 14',
               title: 'Title 14'
           },
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria15.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria15s.jpg',
+              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria15.jpg',
               alt: 'Description for Image 15',
               title: 'Title 15'
           }
