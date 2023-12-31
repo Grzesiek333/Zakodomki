@@ -12,7 +12,7 @@ export default function Szalas() {
     <section style={{maxWidth: '1240px'}}>
       <h2>Domek Szalas</h2>
       <div style={{maxWidth: '1240px', textAlign: 'left'}}>Tradycyjny góralski domek 8 osobowy. Domek jest dwupiętrowy. Na dole znajduje się:<br/> 
-      <ul>
+      <ul style={{paddingLeft: '2rem' }}>
       <li>łazienka z prysznicem, aneks kuchenny,</li>
       <li>salon z TV,</li>
       <li>dwa pokoje dwuosobowe.</li>
