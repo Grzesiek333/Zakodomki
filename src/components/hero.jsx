@@ -27,7 +27,7 @@ export default function HeroImage() {
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)'}}>
           <div className='d-flex justify-content-center align-items-center h-100'>
-            <div className='text-white'>
+            <div className='text-white' style={{position: 'relative', top: '-57px'}}>
               <h1 className='mb-3'>Zakodomki</h1>
               <h4 className='mb-3'>Regionalne domki w Kościelisku</h4> 
               <ScrollToSection_GridCards />                         

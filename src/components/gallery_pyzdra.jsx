@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { Galleria } from 'primereact/galleria';
-import { PhotoService } from '../services/photo_szalas';
+import { PhotoService } from '../services/photo_pyzdra';
 
 
-export default function Gallery()  {
+export default function Gallery_Pyzdra()  {
     const [images, setImages] = useState(null);
     const [activeIndex, setActiveIndex] = useState(0);    
     const galleria = useRef(null);

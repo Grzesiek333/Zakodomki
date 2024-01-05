@@ -44,7 +44,8 @@ function GridCards() {
     <>
     <section id="sekcja-gridcards">
       <h2>Wybierz domek dla siebie:</h2>
-      <Row xs={1} md={3} className="g-4" style={{ maxWidth: '1240px' }}>
+      <Row xs={1} md={3} className="g-4" style={{ maxWidth: '1240px',     marginLeft: 'auto',
+    marginRight: 'auto' }}>
         {items_cards.map((item, idx) => (
           <Col key={idx} >
             <Link to={item.LinkTo} onClick={scrollToTop}>

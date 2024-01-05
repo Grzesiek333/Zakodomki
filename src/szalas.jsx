@@ -3,7 +3,8 @@ import React from "react";
 // import InlineDemo from "./components/calendar";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Gallery from "./components/gallery";
+import Gallery from "./components/gallery_szalas";
+import Gallery_Szalas from "./components/gallery_szalas";
 
 export default function Szalas() {
   return (
@@ -24,7 +25,7 @@ export default function Szalas() {
       Bezpłatne dwa miejsca postojowe. Plac zabaw dla dzieci.</div>
     </section>
     <h3 style= {{marginTop: '20px'}}>Zdjęcia:</h3>
-    <Gallery />
+    <Gallery_Szalas/>
       {/* <InlineDemo />       */}
       <Footer />
     </>

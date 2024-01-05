@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Gallery from "./components/gallery";
+import Gallery_Szalas from "./components/gallery_szalas";
 
 export default function Tatrala() {
   return (
@@ -14,7 +14,7 @@ export default function Tatrala() {
       Dodatkowo jest miejsce na ognisko i duży (nieogrodzony) ogród do dyspozycji gości.
       Bezpłatne dwa miejsca postojowe. Plac zabaw dla dzieci.</div>
     </section>
-    <Gallery />
+    <Gallery_Szalas />
       
       <Footer />
     </>
