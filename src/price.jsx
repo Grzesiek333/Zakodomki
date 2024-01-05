@@ -12,19 +12,19 @@ const Object = {
                 id: '1',                
                 name: 'Domek Szałas',
                 description: 'Product Description',                
-                price: 665+' PLN/dobę',
+                price: 'od 700 PLN/doba',
             },
             {
                 id: '2',                
                 name: 'Apartament Pyzdra',
                 description: 'Product Description',                
-                price: 765+' PLN/dobę',
+                price: 'od 700 PLN/doba',
             },
             {
                 id: '3',                
                 name: 'Apartament Tatrala',
                 description: 'Product Description',                
-                price: 365+' PLN/dobę',
+                price: 'od 350 PLN/doba',
             }
             
         ]},

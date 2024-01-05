@@ -23,10 +23,9 @@ export default function Szalas() {
       Dogodna lokalizacja pozwala na szybkie dotarcie (pieszo lub busem) do wlotu dolin TPN.
       Dodatkowo jest miejsce na ognisko i duży (nieogrodzony) ogród do dyspozycji gości.
       Bezpłatne dwa miejsca postojowe. Plac zabaw dla dzieci.</div>
-    </section>
-    <h3 style= {{marginTop: '20px'}}>Zdjęcia:</h3>
+    </section>    
     <Gallery_Szalas/>
-      {/* <InlineDemo />       */}
+      
       <Footer />
     </>
   );
