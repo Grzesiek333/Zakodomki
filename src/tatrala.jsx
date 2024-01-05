@@ -9,10 +9,21 @@ export default function Tatrala() {
       <Header />
     <section style={{maxWidth: '1240px'}}>
       <h2>Apartament Tatrala</h2>
-      <div style={{maxWidth: '1240px', textAlign: 'left'}}>Tradycyjny góralski domek 8 osobowy. Domek jest dwupiętrowy. Na dole znajduje się: łazienka z prysznicem, aneks kuchenny, salon z TV, dwa pokoje dwuosobowe. Na górze natomiast jest otwarta przestrzeń z 3 łóżkami jedno z nich to małżeńskie oraz łazienka z prysznicem.
-      Dogodna lokalizacja pozwala na szybkie dotarcie (pieszo lub busem) do wlotu dolin TPN.
-      Dodatkowo jest miejsce na ognisko i duży (nieogrodzony) ogród do dyspozycji gości.
-      Bezpłatne dwa miejsca postojowe. Plac zabaw dla dzieci.</div>
+      <div style={{maxWidth: '1240px', textAlign: 'left'}}>Serdecznie zapraszamy Państwa do apartamentu zlokalizowanego w malowniczym Kościelisku. Komfortowe wnętrza oferują wypoczynek dla 4 osób (plus dziecko). Dzięki doskonałej lokalizacji zarówno latem jak i zimą, turyści mogą swobodnie korzystać z licznych atrakcji jakie oferuje okolica, a także podziwiać podhalańskie krajobrazy.
+      <br/>
+      <br/>
+      Apartament składa się z:
+      <br/>
+      <br/>
+      <ul style={{paddingLeft: '2rem' }}>
+        <li>sypialni z dwoma pojedynczymi łóżkami z możliwością złączenia,</li>
+        <li>sypialni z dwoma pojedynczymi łóżkami plus rozkładane łóżko dla dziecka,</li>
+        <li>salon z aneksem kuchennym,</li>
+        <li>telewizor LCD,</li>
+        <li>łazienka z prysznicem,</li>
+        <li>plac zabaw dla dzieci.</li>
+      </ul>
+  </div>
     </section>
     <Gallery_Szalas />
       
