@@ -7,7 +7,7 @@ export default function Tatrala() {
   return (
     <>
       <Header />
-    <section style={{maxWidth: '1240px'}}>
+      <section style={{maxWidth: '1240px', marginInline: '5px'}}>
       <h2>Apartament Tatrala</h2>
       <div style={{maxWidth: '1240px', textAlign: 'left'}}>Serdecznie zapraszamy Państwa do apartamentu zlokalizowanego w malowniczym Kościelisku. Komfortowe wnętrza oferują wypoczynek dla 4 osób (plus dziecko). Dzięki doskonałej lokalizacji zarówno latem jak i zimą, turyści mogą swobodnie korzystać z licznych atrakcji jakie oferuje okolica, a także podziwiać podhalańskie krajobrazy.
       <br/>

@@ -10,7 +10,7 @@ export default function Szalas() {
   return (
     <>
       <Header />
-    <section style={{maxWidth: '1240px'}}>
+      <section style={{maxWidth: '1240px', marginInline: '5px'}}>
       <h2>Domek Szalas</h2>
       <div style={{maxWidth: '1240px', textAlign: 'left'}}>Tradycyjny góralski domek 8 osobowy. Domek jest dwupiętrowy. Na dole znajduje się:<br/> 
       <ul style={{paddingLeft: '2rem' }}>

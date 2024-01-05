@@ -7,7 +7,7 @@ export default function Pyzdra() {
   return (
     <>
       <Header />
-    <section style={{maxWidth: '1240px'}}>
+    <section style={{maxWidth: '1240px', marginInline: '5px'}}>
       <h2>Apartament Pyzdra</h2>
       <div style={{maxWidth: '1240px', textAlign: 'left'}}>Serdecznie zapraszamy Państwa do apartamentu zlokalizowanego w malowniczym Kościelisku. Komfortowe wnętrza oferują wypoczynek dla 8 osób. Dzięki doskonałej lokalizacji zarówno latem jak i zimą, turyści mogą swobodnie korzystać z licznych atrakcji jakie oferuje okolica, a także podziwiać podhalańskie krajobrazy.
       <br/>
