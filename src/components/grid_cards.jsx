@@ -22,21 +22,21 @@ function GridCards() {
       LinkTo: '/szalas',
       scr: 'media/szalas/main_foto.jpg',
       title: 'Domek Szałas',
-      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit     longer.',
+      text: 'Góralski domek 8-osobowy, dwupiętrowy. Obok domku jest miejsce na ognisko i duży (nieogrodzony) ogród do dyspozycji gości.',
       price: 'od 700 PLN/dobę'
     },
     {
       LinkTo: '/tatrala',
       scr: 'media/ap-4-osobowy/main_foto.jpg',
       title: 'Apartament Tatrala',
-      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit     longer.',
+      text: 'Apartament 4-osobowy, jednopoziomowy. Obok domku jest miejsce na ognisko i duży (nieogrodzony) ogród do dyspozycji gości.',
       price: 'od 350 PLN/dobę'
     },
     {
       LinkTo: '/pyzdra',
       scr: 'media/ap-8-osobowy/main_foto.jpg',
       title: 'Apartament Pyzdra',
-      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit     longer.',
+      text: 'Apartament 8-osobowy, dwupiętrowy. Obok domku jest miejsce na ognisko i duży (nieogrodzony) ogród do dyspozycji gości.',
       price: 'od 700 PLN/dobę'
     },   
   ]
