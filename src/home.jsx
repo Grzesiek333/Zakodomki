@@ -3,8 +3,9 @@ import GridCards from "./components/grid_cards";
 import GridIcon from "./components/grid_icon";
 import {Header_Home} from "./components/header";
 import Comments from "./components/comments";
-import Form_input from "./components/form_input";
+import Contact_section from "./components/contact_section";
 import Footer from "./components/footer";
+
 
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
       <GridIcon />
       <GridCards />
       <Comments />
-      <Form_input />
+      <Contact_section />
       <Footer />       
     </>
   );
