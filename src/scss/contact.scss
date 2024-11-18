@@ -9,8 +9,16 @@
   }
   
   /* Styles for screens smaller than 425px */
-  @media (max-width: 425px) {
+  @media (max-width: 426px) {
     .map_contact {
       width: 90%;
+      height: 50%;
     }
   }
+    /* Styles for screens smaller than 769px */
+    @media (max-width: 769px) {
+        .map_contact {
+          width: 90%;
+          height: 50%;
+        }
+      }
