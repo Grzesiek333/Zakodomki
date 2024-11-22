@@ -7,7 +7,7 @@ export default function Contact_section() {
   return (
     <>      
       <h2>Kontakt</h2>
-      <div style={{backgroundImage: "url('/media/background/contact.jpg')", backgroundSize: 'cover', width: "100%", height: '110vh', maxWidth: '1240px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '5%'}}>
+      <div style={{backgroundImage: "url('/media/background/contact.jpg')", backgroundSize: 'cover', width: "100%", height: '110vh', maxWidth: '1228px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '5%'}}>
         
         
         <div style={{width: '400px', backgroundColor: 'white', paddingBlock: '30px', paddingInline: '50px', borderRadius: '0.5rem', boxShadow: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)'}}>              

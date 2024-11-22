@@ -17,7 +17,7 @@ export default function GridActractions() {
         <MDBCol md='4' style={{marginBottom: '20px'}}>
           <div className="order-3 p-2" style={iconStyle}>
           <FontAwesomeIcon icon={faPersonSwimming} size="2xl" style={{color: "#b0b0b0", width: '100px', height: '100px'}} />
-          <h4 style={{marginTop: '10px'}}>Kompieliska termalne</h4>
+          <h4 style={{marginTop: '10px'}}>Kąpieliska termalne</h4>
           <p style={{marginTop: '10px'}}>Termy Zakopiańskie - 6 km <br/> Termy Chochołowskie - 13,7 km</p>
           </div>
         </MDBCol>
