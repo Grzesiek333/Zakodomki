@@ -75,15 +75,19 @@ export default function Menu() {
         zIndex: 1000,        
       }}
     >
+      <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: menuColor, borderBottom: menuBorder,}}>
+   {/* tutaj możesz wkleic logo */}
       <Menubar
         model={items}
         style={{
-          borderBottom: menuBorder,
+          border: 'transparent',
+          borderBottom: 'transparent',
           justifyContent: "center",
-          backgroundColor: menuColor,
+          backgroundColor: 'transparent',
           color: 'black'
         }}
       />
+      </div>
     </div>
   );
 }
