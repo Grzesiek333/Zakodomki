@@ -20,8 +20,7 @@ export default function  Header() {
     return (
       <>         
         <header className='bg-image'style={{ backgroundImage: "url('/media/background/1.jpg')", backgroundPosition: 'center top', width: "100%", height:'40vh'}}>
-            <Menu />
-            <HeroImage />
+            <Menu />            
         </header>        
       </>
     );

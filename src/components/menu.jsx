@@ -67,11 +67,12 @@ export default function Menu() {
   return (
     <div
       style={{
+        position: "fixed",
         top: 0,
         left: 0,
         right: 0,
         backgroundColor: menuColor,
-        zIndex: 1000,
+        zIndex: 1000,        
       }}
     >
       <Menubar
