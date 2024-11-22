@@ -1,6 +1,7 @@
 import React from "react";
 import GridCards from "./components/grid_cards";
 import GridIcon from "./components/grid_icon";
+import GridActractions from "./components/grid_atractions";
 import {Header_Home} from "./components/header";
 import Comments from "./components/comments";
 import Contact_section from "./components/contact_section";
@@ -14,6 +15,7 @@ export default function Home() {
       <Header_Home />
       <GridIcon />
       <GridCards />
+      <GridActractions />
       <Comments />
       <Contact_section />
       <Footer />       
