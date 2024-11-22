@@ -9,20 +9,22 @@ export default function Tatrala() {
       <Header />
       <section style={{maxWidth: '1240px', marginInline: '5px'}}>
       <h2>Apartament Tatrala</h2>
-      <div style={{maxWidth: '1240px', textAlign: 'left'}}>Serdecznie zapraszamy Państwa do apartamentu zlokalizowanego w malowniczym Kościelisku. Komfortowe wnętrza oferują wypoczynek dla 4 osób (plus dziecko). Dzięki doskonałej lokalizacji zarówno latem jak i zimą, turyści mogą swobodnie korzystać z licznych atrakcji jakie oferuje okolica, a także podziwiać podhalańskie krajobrazy.
+      <div style={{maxWidth: '1240px', textAlign: 'left'}}>Zapraszamy do Apartamentu Tatrala – Twojego miejsca w sercu Podhala!
+            Nasza przestrzeń w malowniczym Kościelisku to idealny wybór dla 4 osób poszukujących komfortu, relaksu i pięknych widoków. Dzięki znakomitej lokalizacji możesz w pełni korzystać z uroków regionu przez cały rok – od wędrówek górskich latem po zimowe szaleństwo na stokach.
       <br/>
       <br/>
-      Apartament składa się z:
+      Co oferuje Apartament Tatrala?
       <br/>
       <br/>
       <ul style={{paddingLeft: '2rem' }}>
-        <li>sypialni z dwoma pojedynczymi łóżkami z możliwością złączenia,</li>
-        <li>sypialni z dwoma pojedynczymi łóżkami plus rozkładane łóżko dla dziecka,</li>
-        <li>salon z aneksem kuchennym,</li>
-        <li>telewizor LCD,</li>
-        <li>łazienka z prysznicem,</li>
-        <li>plac zabaw dla dzieci.</li>
+        <li>Przytulne sypialnie: pierwsza z dwoma pojedynczymi łóżkami (z możliwością złączenia),
+        druga z dwoma pojedynczymi łóżkami i rozkładaną sofą dla dziecka.</li>
+        <li>Przestronna jadalnia z aneksem kuchennym.</li>
+        <li>Łazienka z prysznicem – wygodna i stylowa.</li>
+        <li>Plac zabaw dla dzieci – miejsce na chwile radości dla najmłodszych.</li>
       </ul>
+      <br/>
+      Pozwól sobie na chwilę wytchnienia i delektuj się pięknem Podhala w Apartamencie Tatrala. Rezerwuj już dziś i przeżyj niezapomniane chwile!
   </div>
     </section>
     <Gallery_Szalas />
