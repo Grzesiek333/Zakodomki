@@ -73,3 +73,11 @@ body {
   }
 }
 
+// stylowanie buttona zapraszamy
+.btn-lg {
+  transition: filter 0.3s ease;
+}
+.btn-lg:hover {
+  filter: brightness(10%);
+}
+
