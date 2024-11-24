@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Gallery_Szalas from "./components/gallery_szalas";
+import Gallery_Tatrala from "./components/gallery_tatrala";
 
 export default function Tatrala() {
   return (
@@ -27,7 +28,7 @@ export default function Tatrala() {
       Pozwól sobie na chwilę wytchnienia i delektuj się pięknem Podhala w Apartamencie Tatrala. Rezerwuj już dziś i przeżyj niezapomniane chwile!
   </div>
     </section>
-    <Gallery_Szalas />
+    <Gallery_Tatrala />
       
       <Footer />
     </>
