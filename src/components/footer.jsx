@@ -90,12 +90,12 @@ export default function Footer() {
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" />
-                <a href="tel:+48606111000">+48 606 104 359</a>
+                <a href="tel:+48606104359">+48 606 104 359</a>
               </p>
-              <p>
+              {/* <p>
                 <MDBIcon icon="phone" className="me-3" />
                 <a href="tel:+0123456789">+48 720 769 324</a>
-              </p>
+              </p> */}
             </MDBCol>
           </MDBRow>
         </MDBContainer>

@@ -74,7 +74,7 @@ export default function Price() {
         <Header />
         <h2>Cennik:</h2>
         <Table />
-        <div style={{marginTop: '30px'}}>Rezerwacja min. 2 doby. <br/>
+        <div style={{marginTop: '30px'}}>Rezerwacja na minimum 2 doby. W celu rezerwacji prosimy o kontakt telefoniczny lub mailowy. <br/>
             Obowiązuje dodatkowa opłata za sprzątanie w wysokości 150 zł za pobyt dla gości podróżujących ze zwierzętami.</div>
         <Footer />
       </>

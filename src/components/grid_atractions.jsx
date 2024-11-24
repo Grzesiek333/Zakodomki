@@ -14,11 +14,11 @@ export default function GridActractions() {
     <>
       <h2>Atrakcje w pobliżu:</h2>
       <MDBRow style={{width: '100%', maxWidth: '1240px'}}>
-        <MDBCol md='4' style={{marginBottom: '20px'}}>
-          <div className="order-3 p-2" style={iconStyle}>
-          <FontAwesomeIcon icon={faPersonSwimming} size="2xl" style={{color: "#b0b0b0", width: '100px', height: '100px'}} />
-          <h4 style={{marginTop: '10px'}}>Kąpieliska termalne</h4>
-          <p style={{marginTop: '10px'}}>Termy Zakopiańskie - 6 km <br/> Termy Chochołowskie - 13,7 km</p>
+        <MDBCol md='4'style={{marginBottom: '20px'}}>
+        <div className="order-3 p-2" style={iconStyle}>
+          <FontAwesomeIcon icon={faMountain} size="2xl" style={{color: "#b0b0b0", width: '100px', height: '100px'}} />
+          <h4 style={{marginTop: '10px'}}>Tatrzański Park Narodowy</h4>
+          <p style={{marginTop: '10px'}}>Dolina Małej Łąki - 3,6 km, Dolina Kościeliska - 3,8 km, Dolina Chochołowska - 5,6 km</p>
           </div>
         </MDBCol>
         <MDBCol md='4'style={{marginBottom: '20px'}}>
@@ -42,17 +42,17 @@ export default function GridActractions() {
           <p style={{marginTop: '10px'}}> Stacja narciarska Szymaszkowa - 2 km<br/> Stacja narciarska Witów Ski - 6 km </p>
           </div>
         </MDBCol>
-        <MDBCol md='4'style={{marginBottom: '20px'}}>
-        <div className="order-3 p-2" style={iconStyle}>
-          <FontAwesomeIcon icon={faMountain} size="2xl" style={{color: "#b0b0b0", width: '100px', height: '100px'}} />
-          <h4 style={{marginTop: '10px'}}>Tatrzański Park Narodowy</h4>
-          <p style={{marginTop: '10px'}}>Dolina Małej Łąki - 3,6 km, Dolina Kościeliska - 3,8 km, Dolina Chochołowska - 5,6 km</p>
+        <MDBCol md='4' style={{marginBottom: '20px'}}>
+          <div className="order-3 p-2" style={iconStyle}>
+          <FontAwesomeIcon icon={faPersonSwimming} size="2xl" style={{color: "#b0b0b0", width: '100px', height: '100px'}} />
+          <h4 style={{marginTop: '10px'}}>Kąpieliska termalne</h4>
+          <p style={{marginTop: '10px'}}>Termy Zakopiańskie - 6 km <br/> Termy Chochołowskie - 13,7 km</p>
           </div>
         </MDBCol>
         <MDBCol md='4'style={{marginBottom: '20px'}}>
         <div className="order-3 p-2" style={iconStyle}>
           <FontAwesomeIcon icon={faChild} size="2xl" style={{color: "#b0b0b0", width: '100px', height: '100px'}} />
-          <h4 style={{marginTop: '10px'}}>Sala zabaw</h4>
+          <h4 style={{marginTop: '10px'}}>Sala zabaw dla dzieci</h4>
           <p style={{marginTop: '10px'}}>Fabryka Talentów - 400 m <br/>U Tłustego Kraba - 5,2 km</p>
           </div>
         </MDBCol>
