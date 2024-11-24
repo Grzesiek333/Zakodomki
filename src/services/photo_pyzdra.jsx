@@ -2,11 +2,43 @@ export const PhotoService = {
   getData() {
       return [
           {
-              itemImageSrc: 'public/media/ap-8-osobowy/salon_pyzdra.jpg',
-              thumbnailImageSrc: 'public/media/ap-8-osobowy/salon_pyzdra.jpg',
+              itemImageSrc: 'media/ap-8-osobowy/salon_pyzdra.jpg',
+              thumbnailImageSrc: 'media/ap-8-osobowy/salon_pyzdra.jpg',
               alt: 'Zdjęcie przedstawia salon',
               title: 'Salon'
           },
+          {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (1).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (1).jpg',
+            alt: 'Zdjęcie przedstawia salon',
+            title: 'Salon'
+        },
+        {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (2).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (2).jpg',
+            alt: 'Zdjęcie przedstawia salon',
+            title: 'Salon'
+             },
+          {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (3).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (3).jpg',
+            alt: 'Zdjęcie przedstawia salon',
+            title: 'Salon'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (4).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (4).jpg',
+            alt: 'Zdjęcie przedstawia salon',
+            title: 'Salon'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (5).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (5).jpg',
+            alt: 'Zdjęcie przedstawia salon',
+            title: 'Salon'
+             },
+            
+
           {
               itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria2.jpg',
               thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria2.jpg',
