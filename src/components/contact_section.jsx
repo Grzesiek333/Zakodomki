@@ -17,7 +17,7 @@ export default function Contact_section() {
             </p>
             <p>
               <MDBIcon icon="phone" className="me-3" />
-              <a href="tel:+48606111000">+48 606 104 359</a>
+              <a href="tel:+48606104359">+48 606 104 359</a>
             </p>
             <p>
               <MDBIcon icon="home" className="me-2" />

@@ -22,28 +22,28 @@ function GridCards() {
       LinkTo: '/szalas',
       scr: 'media/szalas/main_foto.jpg',
       title: 'Domek Szałas',
-      text: 'Góralski domek 8-osobowy, dwupiętrowy. Obok domku jest miejsce na ognisko i duży (nieogrodzony) ogród do dyspozycji gości.',
+      text: 'Góralski domek 8-osobowy, dwupiętrowy. Obok domku jest miejsce na grilla i duży ogród do dyspozycji gości.',
       price: 'od 700 PLN/dobę'
     },
     {
       LinkTo: '/tatrala',
       scr: 'media/ap-4-osobowy/main_foto.jpg',
       title: 'Apartament Tatrala',
-      text: 'Apartament 4-osobowy, jednopoziomowy. Obok domku jest miejsce na ognisko i duży (nieogrodzony) ogród do dyspozycji gości.',
+      text: 'Apartament 4-osobowy, jednopoziomowy. Odzielne (prywatne) wejście. Obok apartamentu jest miejsce na grilla i duży ogród do dyspozycji gości.',
       price: 'od 350 PLN/dobę'
     },
     {
       LinkTo: '/pyzdra',
       scr: 'media/ap-8-osobowy/main_foto.jpg',
       title: 'Apartament Pyzdra',
-      text: 'Apartament 8-osobowy, dwupiętrowy. Obok domku jest miejsce na ognisko i duży (nieogrodzony) ogród do dyspozycji gości.',
+      text: 'Apartament 8-osobowy, dwupiętrowy. Odzielne (prywatne) wejście. Obok apartamentu jest miejsce na grilla i duży ogród do dyspozycji gości.',
       price: 'od 700 PLN/dobę'
     },   
   ]
   return (
     <>
     <section id="sekcja-gridcards">
-      <h2>Wybierz domek dla siebie:</h2>
+      <h2>Wybierz obiekt dla siebie:</h2>
       <Row xs={1} md={3} className="g-4" style={{ maxWidth: '1240px',     marginLeft: 'auto',
     marginRight: 'auto' }}>
         {items_cards.map((item, idx) => (
