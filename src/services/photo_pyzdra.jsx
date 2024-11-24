@@ -11,118 +11,128 @@ export const PhotoService = {
             itemImageSrc: 'media/ap-8-osobowy/pyzdra (1).jpg',
             thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (1).jpg',
             alt: 'Zdjęcie przedstawia salon',
-            title: 'Salon'
+            title: 'Salon 2'
         },
         {
             itemImageSrc: 'media/ap-8-osobowy/pyzdra (2).jpg',
             thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (2).jpg',
             alt: 'Zdjęcie przedstawia salon',
-            title: 'Salon'
+            title: 'Salon 3'
              },
           {
             itemImageSrc: 'media/ap-8-osobowy/pyzdra (3).jpg',
             thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (3).jpg',
-            alt: 'Zdjęcie przedstawia salon',
-            title: 'Salon'
+            alt: 'Zdjęcie przedstawia kuchnie',
+            title: 'Kuchnia'
              },
              {
             itemImageSrc: 'media/ap-8-osobowy/pyzdra (4).jpg',
             thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (4).jpg',
-            alt: 'Zdjęcie przedstawia salon',
-            title: 'Salon'
+            alt: 'Zdjęcie przedstawia kuchnie',
+            title: 'Kuchnia 2'
              },
              {
             itemImageSrc: 'media/ap-8-osobowy/pyzdra (5).jpg',
             thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (5).jpg',
-            alt: 'Zdjęcie przedstawia salon',
-            title: 'Salon'
+            alt: 'Zdjęcie przedstawia sypialnię',
+            title: 'Sypialnia 1'
              },
-            
-
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria2.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria2.jpg',
-              alt: 'Description for Image 2',
-              title: 'Title 2'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria3.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria3.jpg',
-              alt: 'Description for Image 3',
-              title: 'Title 3'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria4.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria4.jpg',
-              alt: 'Description for Image 4',
-              title: 'Title 4'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria5.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria5.jpg',
-              alt: 'Description for Image 5',
-              title: 'Title 5'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria6.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria6.jpg',
-              alt: 'Description for Image 6',
-              title: 'Title 6'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria7.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria7.jpg',
-              alt: 'Description for Image 7',
-              title: 'Title 7'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria8.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria8.jpg',
-              alt: 'Description for Image 8',
-              title: 'Title 8'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria9.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria9.jpg',
-              alt: 'Description for Image 9',
-              title: 'Title 9'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria10.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria10.jpg',
-              alt: 'Description for Image 10',
-              title: 'Title 10'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria11.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria11.jpg',
-              alt: 'Description for Image 11',
-              title: 'Title 11'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria12.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria12.jpg',
-              alt: 'Description for Image 12',
-              title: 'Title 12'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria13.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria13.jpg',
-              alt: 'Description for Image 13',
-              title: 'Title 13'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria14.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria14.jpg',
-              alt: 'Description for Image 14',
-              title: 'Title 14'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria15.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria15.jpg',
-              alt: 'Description for Image 15',
-              title: 'Title 15'
-          }
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (6).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (6).jpg',
+            alt: 'Zdjęcie przedstawia sypialnię',
+            title: 'Sypialnia 2'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (7).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (7).jpg',
+            alt: 'Zdjęcie przedstawia widok z okna',
+            title: 'Widok z okna'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (8).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (8).jpg',
+            alt: 'Zdjęcie przedstawia łazienkę',
+            title: 'Łazienka'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (9).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (9).jpg',
+            alt: 'Zdjęcie przedstawia łazienkę',
+            title: 'Łazienka 2'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (10).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (10).jpg',
+            alt: 'Zdjęcie przedstawia łazienkę',
+            title: 'Łazienka 3'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (11).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (11).jpg',
+            alt: 'Zdjęcie przedstawia sypialnie',
+            title: 'Sypialnia 3'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (12).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (12).jpg',
+            alt: 'Zdjęcie przedstawia sypialnię',
+            title: 'Sypialnia 4'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (13).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (13).jpg',
+            alt: 'Zdjęcie przedstawia łazienkę',
+            title: 'Łazienka 4'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (14).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (14).jpg',
+            alt: 'Zdjęcie przedstawia sypialnię',
+            title: 'Sypialnia 5'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (15).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (15).jpg',
+            alt: 'Zdjęcie przedstawia łazienkę',
+            title: 'Łazienka 5'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (16).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (16).jpg',
+            alt: 'Zdjęcie przedstawia łazienkę',
+            title: 'Łazienka 6'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (17).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (17).jpg',
+            alt: 'Zdjęcie przedstawia ogród',
+            title: 'Ogród'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (18).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (18).jpg',
+            alt: 'Zdjęcie przedstawia taras',
+            title: 'Taras'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (19).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (19).jpg',
+            alt: 'Zdjęcie przedstawia parking',
+            title: 'Parking'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (20).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (20).jpg',
+            alt: 'Zdjęcie przedstawia widok na Giewont',
+            title: 'Giewont'
+             },
+             {
+            itemImageSrc: 'media/ap-8-osobowy/pyzdra (21).jpg',
+            thumbnailImageSrc: 'media/ap-8-osobowy/pyzdra (21).jpg',
+            alt: 'Zdjęcie przedstawia plac zabaw',
+            title: 'Plac zabaw'
+             },             
       ];
   },
 
