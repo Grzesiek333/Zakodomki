@@ -1,96 +1,151 @@
 export const PhotoService = {
   getData() {
       return [
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria1.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria1.jpg',
-              alt: 'Description for Image 1',
-              title: 'Title 1'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria2.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria2.jpg',
-              alt: 'Description for Image 2',
-              title: 'Title 2'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria3.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria3.jpg',
-              alt: 'Description for Image 3',
-              title: 'Title 3'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria4.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria4.jpg',
-              alt: 'Description for Image 4',
-              title: 'Title 4'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria5.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria5.jpg',
-              alt: 'Description for Image 5',
-              title: 'Title 5'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria6.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria6.jpg',
-              alt: 'Description for Image 6',
-              title: 'Title 6'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria7.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria7.jpg',
-              alt: 'Description for Image 7',
-              title: 'Title 7'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria8.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria8.jpg',
-              alt: 'Description for Image 8',
-              title: 'Title 8'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria9.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria9.jpg',
-              alt: 'Description for Image 9',
-              title: 'Title 9'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria10.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria10.jpg',
-              alt: 'Description for Image 10',
-              title: 'Title 10'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria11.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria11.jpg',
-              alt: 'Description for Image 11',
-              title: 'Title 11'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria12.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria12.jpg',
-              alt: 'Description for Image 12',
-              title: 'Title 12'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria13.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria13.jpg',
-              alt: 'Description for Image 13',
-              title: 'Title 13'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria14.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria14.jpg',
-              alt: 'Description for Image 14',
-              title: 'Title 14'
-          },
-          {
-              itemImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria15.jpg',
-              thumbnailImageSrc: 'https://primefaces.org/cdn/primereact/images/galleria/galleria15.jpg',
-              alt: 'Description for Image 15',
-              title: 'Title 15'
-          }
+        {
+            itemImageSrc: 'media/szalas/s1.jpg',
+            thumbnailImageSrc: 'media/szalas/s1.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s2.jpg',
+            thumbnailImageSrc: 'media/szalas/s2.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s3.jpg',
+            thumbnailImageSrc: 'media/szalas/s3.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s4.jpg',
+            thumbnailImageSrc: 'media/szalas/s4.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s5.jpg',
+            thumbnailImageSrc: 'media/szalas/s5.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s6.jpg',
+            thumbnailImageSrc: 'media/szalas/s6.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s7.jpg',
+            thumbnailImageSrc: 'media/szalas/s7.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s8.jpg',
+            thumbnailImageSrc: 'media/szalas/s8.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s9.jpg',
+            thumbnailImageSrc: 'media/szalas/s9.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s10.jpg',
+            thumbnailImageSrc: 'media/szalas/s10.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s11.jpg',
+            thumbnailImageSrc: 'media/szalas/s11.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s12.jpg',
+            thumbnailImageSrc: 'media/szalas/s12.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s13.jpg',
+            thumbnailImageSrc: 'media/szalas/s13.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s14.jpg',
+            thumbnailImageSrc: 'media/szalas/s14.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s15.jpg',
+            thumbnailImageSrc: 'media/szalas/s15.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s16.jpg',
+            thumbnailImageSrc: 'media/szalas/s16.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s17.jpg',
+            thumbnailImageSrc: 'media/szalas/s17.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s18.jpg',
+            thumbnailImageSrc: 'media/szalas/s18.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s19.jpg',
+            thumbnailImageSrc: 'media/szalas/s19.jpg',
+            alt: 'Zdjęcie przedstawia domek Szałas',
+            title: 'Szałas'
+        },
+        
+        {
+            itemImageSrc: 'media/szalas/s20.jpg',
+            thumbnailImageSrc: 'media/szalas/s20.jpg',
+            alt: 'Zdjęcie przedstawia plan parteru',
+            title: 'plan parteru Szałas'
+        },          
+        {
+            itemImageSrc: 'media/szalas/s21.jpg',
+            thumbnailImageSrc: 'media/szalas/s21.jpg',
+            alt: 'Zdjęcie przedstawia plan pierwszego piętra',
+            title: 'plan pierwszego piętra Szałas'
+        }        
       ];
   },
 
