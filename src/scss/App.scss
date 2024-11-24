@@ -53,11 +53,16 @@ body {
   height: 250px; 
   object-fit: cover;
   border-radius: 2%;
+  transition: filter 0.3s ease;
 }
 @media (max-width: 480px){
   .box_img img {
     height: 300px;
   }
+}
+
+.box_img:hover img {
+  filter: brightness(70%); /* Zaciemnienie obrazu do 70% jasności */
 }
 .justify-content-center {
   margin-top: 35px;
